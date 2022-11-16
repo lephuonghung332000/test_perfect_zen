@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Value from product flavor: staging -->
+    <string name="app_name" translatable="false">Zenify Staging</string>
+    <!-- Value from product flavor: staging -->
+    <string name="application_ads_id" translatable="false">ca-app-pub-4897454251853431~1304080132</string>
+
+</resources>

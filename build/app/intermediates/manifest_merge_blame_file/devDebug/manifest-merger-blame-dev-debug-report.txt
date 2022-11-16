@@ -1,0 +1,728 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="co.novageeks.mediation.dev"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:5:5-67
+14-->C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="com.android.vending.BILLING" />
+15-->C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:6:5-66
+15-->C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+16-->[:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+17-->[:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->[:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+18-->[:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+19
+20    <queries>
+20-->[:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-15:15
+21        <intent>
+21-->[:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:18
+22            <action android:name="android.intent.action.GET_CONTENT" />
+22-->[:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-72
+22-->[:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:21-69
+23
+24            <data android:mimeType="*/*" />
+24-->[:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+24-->[:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-41
+25        </intent>
+26        <intent>
+26-->[:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:9:9-11:18
+27            <action android:name="android.intent.action.VIEW" />
+27-->[:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-65
+27-->[:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:10:21-62
+28        </intent>
+29        <intent>
+29-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-10:18
+30            <action android:name="android.support.customtabs.action.CustomTabsService" />
+30-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-90
+30-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:21-87
+31        </intent> <!-- For browser content -->
+32        <intent>
+32-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:31:9-37:18
+33            <action android:name="android.intent.action.VIEW" />
+33-->[:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-65
+33-->[:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:10:21-62
+34
+35            <category android:name="android.intent.category.BROWSABLE" />
+35-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:34:13-74
+35-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:34:23-71
+36
+37            <data android:scheme="https" />
+37-->[:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+38        </intent>
+39    </queries>
+40
+41    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+41-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-77
+41-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-74
+42    <uses-permission android:name="android.permission.VIBRATE" />
+42-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+42-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+43    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+44    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+45    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+45-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:25:5-79
+45-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:25:22-76
+46    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+46-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:26:5-110
+46-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:26:22-107
+47    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+47-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+47-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+48
+49    <application
+50        android:name="android.app.Application"
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ffc4ffc88b064785efc34b87d9b2d473\core-1.8.0\AndroidManifest.xml:24:18-86
+52        android:debuggable="true"
+53        android:icon="@mipmap/ic_launcher"
+54        android:label="@string/app_name"
+55        android:requestLegacyExternalStorage="true" >
+56        <activity
+57            android:name="io.kodingworks.flutter_modular.MainActivity"
+58            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+59            android:exported="true"
+60            android:hardwareAccelerated="true"
+61            android:launchMode="singleTop"
+62            android:theme="@style/LaunchTheme"
+63            android:windowSoftInputMode="adjustResize" >
+64
+65            <!--
+66                 Specifies an Android theme to apply to this Activity as soon as
+67                 the Android process has started. This theme is visible to the user
+68                 while the Flutter UI initializes. After that, this theme continues
+69                 to determine the Window background behind the Flutter UI.
+70            -->
+71            <meta-data
+72                android:name="io.flutter.embedding.android.NormalTheme"
+73                android:resource="@style/NormalTheme" />
+74            <!--
+75                 Displays an Android View that continues showing the launch screen
+76                 Drawable until Flutter paints its first frame, then this splash
+77                 screen fades out. A splash screen is useful to avoid any visual
+78                 gap between the end of Android's launch screen and the painting of
+79                 Flutter's first frame.
+80            -->
+81            <meta-data
+82                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+83                android:resource="@drawable/launch_background" />
+84
+85            <intent-filter>
+86                <action android:name="android.intent.action.MAIN" />
+87
+88                <category android:name="android.intent.category.LAUNCHER" />
+89            </intent-filter>
+90        </activity>
+91        <!--
+92             Don't delete the meta-data below.
+93             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+94        -->
+95        <meta-data
+96            android:name="flutterEmbedding"
+97            android:value="2" />
+98        <meta-data
+99            android:name="com.google.android.gms.ads.APPLICATION_ID"
+100            android:value="@string/application_ads_id" />
+101
+102        <provider
+103            android:name="vn.hunghd.flutterdownloader.DownloadedFileProvider"
+104            android:authorities="co.novageeks.mediation.dev.flutter_downloader.provider"
+105            android:exported="false"
+106            android:grantUriPermissions="true" >
+107            <meta-data
+107-->[:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+108                android:name="android.support.FILE_PROVIDER_PATHS"
+108-->[:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+109                android:resource="@xml/provider_paths" />
+109-->[:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+110        </provider>
+111
+112        <!-- Begin FlutterDownloader customization -->
+113        <!-- disable default Initializer -->
+114        <provider
+115            android:name="androidx.startup.InitializationProvider"
+116            android:authorities="co.novageeks.mediation.dev.androidx-startup"
+117            android:exported="false" >
+118            <meta-data
+118-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+120                android:value="androidx.startup" />
+120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+121            <meta-data
+121-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+122                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+122-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+123                android:value="androidx.startup" />
+123-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+124        </provider>
+125
+126        <!-- declare customized Initializer -->
+127        <provider
+128            android:name="vn.hunghd.flutterdownloader.FlutterDownloaderInitializer"
+129            android:authorities="co.novageeks.mediation.dev.flutter-downloader-init"
+130            android:exported="false" >
+131            <meta-data
+132                android:name="vn.hunghd.flutterdownloader.MAX_CONCURRENT_TASKS"
+133                android:value="5" />
+134        </provider>
+135        <!-- End FlutterDownloader customization -->
+136        <service
+136-->[:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+137            android:name="com.google.firebase.components.ComponentDiscoveryService"
+137-->[:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+138            android:directBootAware="true"
+138-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+139            android:exported="false" >
+139-->[com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:17:13-37
+140            <meta-data
+140-->[:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+141                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+141-->[:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-130
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+143            <meta-data
+143-->[:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:85
+144                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+144-->[:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-128
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-82
+146            <meta-data
+146-->[:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+147                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+147-->[:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:18:13-20:85
+150                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+150-->[com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:19:17-115
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:20:17-82
+152            <meta-data
+152-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:31:13-33:85
+153                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+153-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:32:17-139
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:33:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+156                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+156-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+158        </service>
+159
+160        <provider
+160-->[:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+161            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+161-->[:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+162            android:authorities="co.novageeks.mediation.dev.flutter.image_provider"
+162-->[:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+163            android:exported="false"
+163-->[:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+164            android:grantUriPermissions="true" >
+164-->[:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+165            <meta-data
+165-->[:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+166                android:name="android.support.FILE_PROVIDER_PATHS"
+166-->[:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+167                android:resource="@xml/flutter_image_picker_file_paths" />
+167-->[:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+168        </provider>
+169
+170        <activity
+170-->[:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+171            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+171-->[:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+172            android:exported="false"
+172-->[:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+173            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+173-->[:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+174
+175        <receiver
+175-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:39
+176            android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver"
+176-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-108
+177            android:exported="true" />
+177-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-36
+178        <receiver
+178-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-21:20
+179            android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver"
+179-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-107
+180            android:exported="true" >
+180-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-36
+181            <intent-filter>
+181-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:29
+182                <action android:name="android.intent.action.MEDIA_BUTTON" />
+182-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-77
+182-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:19:25-74
+183            </intent-filter>
+184        </receiver>
+185
+186        <service
+186-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-33:19
+187            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
+187-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-101
+188            android:enabled="true"
+188-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-35
+189            android:exported="true" >
+189-->[:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
+190
+191            <!--
+192            <intent-filter>
+193                <action android:name="android.intent.action.MEDIA_BUTTON" />
+194            </intent-filter>
+195            -->
+196        </service>
+197
+198        <activity
+198-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-18:47
+199            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+199-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-104
+200            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+200-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-137
+201            android:exported="true"
+201-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-36
+202            android:theme="@style/AppTheme" />
+202-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-44
+203        <activity
+203-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-22:55
+204            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+204-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-112
+205            android:exported="true"
+205-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-36
+206            android:theme="@style/ThemeTransparent" />
+206-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-52
+207        <activity
+207-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-26:55
+208            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+208-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-106
+209            android:exported="true"
+209-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-36
+210            android:theme="@style/ThemeTransparent" />
+210-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-52
+211        <activity
+211-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-31:55
+212            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+212-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-126
+213            android:exported="true"
+213-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-36
+214            android:launchMode="singleInstance"
+214-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-48
+215            android:theme="@style/ThemeTransparent" />
+215-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-52
+216        <activity
+216-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-36:55
+217            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+217-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-120
+218            android:exported="true"
+218-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-36
+219            android:launchMode="singleInstance"
+219-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-48
+220            android:theme="@style/ThemeTransparent" />
+220-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-52
+221
+222        <receiver
+222-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-41:40
+223            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+223-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-111
+224            android:enabled="true"
+224-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-35
+225            android:exported="false" />
+225-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-37
+226
+227        <meta-data
+227-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-45:36
+228            android:name="io.flutter.embedded_views_preview"
+228-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-61
+229            android:value="true" />
+229-->[:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-33
+230
+231        <uses-library
+231-->[androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+232            android:name="androidx.window.extensions"
+232-->[androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+233            android:required="false" />
+233-->[androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+234        <uses-library
+234-->[androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+235            android:name="androidx.window.sidecar"
+235-->[androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+236            android:required="false" />
+236-->[androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+237
+238        <provider
+238-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+239            android:name="com.google.firebase.provider.FirebaseInitProvider"
+239-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+240            android:authorities="co.novageeks.mediation.dev.firebaseinitprovider"
+240-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+241            android:directBootAware="true"
+241-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+242            android:exported="false"
+242-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+243            android:initOrder="100" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+243-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+244        <activity
+244-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:49:9-53:64
+245            android:name="com.google.android.gms.ads.AdActivity"
+245-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:50:13-65
+246            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+246-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:51:13-122
+247            android:exported="false"
+247-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:52:13-37
+248            android:theme="@android:style/Theme.Translucent" />
+248-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:53:13-61
+249
+250        <provider
+250-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:55:9-59:39
+251            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+251-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:56:13-76
+252            android:authorities="co.novageeks.mediation.dev.mobileadsinitprovider"
+252-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:57:13-73
+253            android:exported="false"
+253-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:58:13-37
+254            android:initOrder="100" />
+254-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:59:13-36
+255
+256        <service
+256-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:61:9-64:40
+257            android:name="com.google.android.gms.ads.AdService"
+257-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:62:13-64
+258            android:enabled="true"
+258-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:63:13-35
+259            android:exported="false" />
+259-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:64:13-37
+260
+261        <receiver
+261-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:29:9-33:20
+262            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+262-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:30:13-85
+263            android:enabled="true"
+263-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:31:13-35
+264            android:exported="false" >
+264-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:32:13-37
+265        </receiver>
+266
+267        <service
+267-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:35:9-38:40
+268            android:name="com.google.android.gms.measurement.AppMeasurementService"
+268-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:36:13-84
+269            android:enabled="true"
+269-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:37:13-35
+270            android:exported="false" />
+270-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:38:13-37
+271        <service
+271-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:39:9-43:72
+272            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+272-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:40:13-87
+273            android:enabled="true"
+273-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:41:13-35
+274            android:exported="false"
+274-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:42:13-37
+275            android:permission="android.permission.BIND_JOB_SERVICE" />
+275-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:43:13-69
+276
+277        <activity
+277-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+278            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+278-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+279            android:exported="false"
+279-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+280            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+280-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+281
+282        <meta-data
+282-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7f98f737c5fa42f63d71347887a96e04\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+283            android:name="com.google.android.gms.version"
+283-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7f98f737c5fa42f63d71347887a96e04\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+284            android:value="@integer/google_play_services_version" />
+284-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7f98f737c5fa42f63d71347887a96e04\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+285
+286        <service
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+287            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+288            android:directBootAware="false"
+288-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+289            android:enabled="@bool/enable_system_alarm_service_default"
+289-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+290            android:exported="false" />
+290-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+291        <service
+291-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+292            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+293            android:directBootAware="false"
+293-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+294            android:enabled="@bool/enable_system_job_service_default"
+294-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+295            android:exported="true"
+295-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+296            android:permission="android.permission.BIND_JOB_SERVICE" />
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+297        <service
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+298            android:name="androidx.work.impl.foreground.SystemForegroundService"
+298-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+299            android:directBootAware="false"
+299-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+300            android:enabled="@bool/enable_system_foreground_service_default"
+300-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+301            android:exported="false" />
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+302
+303        <receiver
+303-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+304            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+304-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+305            android:directBootAware="false"
+305-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+306            android:enabled="true"
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+307            android:exported="false" />
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+308        <receiver
+308-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+309            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+309-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+310            android:directBootAware="false"
+310-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+311            android:enabled="false"
+311-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+312            android:exported="false" >
+312-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+313            <intent-filter>
+313-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+314                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+314-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+314-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+315                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+315-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+315-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+316            </intent-filter>
+317        </receiver>
+318        <receiver
+318-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+319            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+319-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+320            android:directBootAware="false"
+320-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+321            android:enabled="false"
+321-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+322            android:exported="false" >
+322-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+323            <intent-filter>
+323-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+324                <action android:name="android.intent.action.BATTERY_OKAY" />
+324-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+324-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+325                <action android:name="android.intent.action.BATTERY_LOW" />
+325-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+325-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+326            </intent-filter>
+327        </receiver>
+328        <receiver
+328-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+329            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+329-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+330            android:directBootAware="false"
+330-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+331            android:enabled="false"
+331-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+332            android:exported="false" >
+332-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+333            <intent-filter>
+333-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+334                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+334-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+334-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+335                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+335-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+335-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+336            </intent-filter>
+337        </receiver>
+338        <receiver
+338-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+339            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+339-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+340            android:directBootAware="false"
+340-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+341            android:enabled="false"
+341-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+342            android:exported="false" >
+342-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+343            <intent-filter>
+343-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+344                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+344-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+344-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+345            </intent-filter>
+346        </receiver>
+347        <receiver
+347-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+348            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+348-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+349            android:directBootAware="false"
+349-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+350            android:enabled="false"
+350-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+351            android:exported="false" >
+351-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+352            <intent-filter>
+352-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+353                <action android:name="android.intent.action.BOOT_COMPLETED" />
+353-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+353-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+354                <action android:name="android.intent.action.TIME_SET" />
+354-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+354-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+355                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+355-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+355-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+356            </intent-filter>
+357        </receiver>
+358        <receiver
+358-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+359            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+359-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+360            android:directBootAware="false"
+360-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+361            android:enabled="@bool/enable_system_alarm_service_default"
+361-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+362            android:exported="false" >
+362-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+363            <intent-filter>
+363-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+364                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+364-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+364-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+365            </intent-filter>
+366        </receiver>
+367        <receiver
+367-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+368            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+368-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+369            android:directBootAware="false"
+369-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+370            android:enabled="true"
+370-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+371            android:exported="true"
+371-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+372            android:permission="android.permission.DUMP" >
+372-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+373            <intent-filter>
+373-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+374                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+374-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+374-->[androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+375            </intent-filter>
+376        </receiver>
+377
+378        <service
+378-->[androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+379            android:name="androidx.room.MultiInstanceInvalidationService"
+379-->[androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+380            android:directBootAware="true"
+380-->[androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+381            android:exported="false" />
+381-->[androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+382        <service
+382-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:29:9-35:19
+383            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+383-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:30:13-103
+384            android:exported="false" >
+384-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:31:13-37
+385            <meta-data
+385-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:32:13-34:39
+386                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+386-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:33:17-94
+387                android:value="cct" />
+387-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:34:17-36
+388        </service>
+389        <service
+389-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:26:9-30:19
+390            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+390-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:27:13-117
+391            android:exported="false"
+391-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:28:13-37
+392            android:permission="android.permission.BIND_JOB_SERVICE" >
+392-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:29:13-69
+393        </service>
+394
+395        <receiver
+395-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:32:9-34:40
+396            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+396-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:33:13-132
+397            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+397-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:34:13-37
+398        <activity
+398-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:5-271
+399            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+399-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:15-102
+400            android:enabled="false"
+400-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:103-126
+401            android:exported="false"
+401-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:127-151
+402            android:launchMode="singleInstance"
+402-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:204-239
+403            android:process=":playcore_missing_splits_activity"
+403-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:152-203
+404            android:stateNotNeeded="true" />
+404-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:240-269
+405        <activity
+405-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:13:5-226
+406            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+406-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:13:15-95
+407            android:enabled="false"
+407-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:13:96-119
+408            android:exported="false"
+408-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:13:120-144
+409            android:stateNotNeeded="true"
+409-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:13:145-174
+410            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+410-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:13:175-224
+411        <service
+411-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:16:5-145
+412            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+412-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:16:14-95
+413            android:enabled="false"
+413-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:16:96-119
+414            android:exported="true" />
+414-->[com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:16:120-143
+415
+416        <meta-data
+416-->[com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:13:9-15:37
+417            android:name="com.google.android.play.billingclient.version"
+417-->[com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:14:13-73
+418            android:value="5.0.0" />
+418-->[com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:15:13-34
+419
+420        <activity
+420-->[com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:17:9-21:75
+421            android:name="com.android.billingclient.api.ProxyBillingActivity"
+421-->[com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:18:13-78
+422            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+422-->[com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:19:13-96
+423            android:exported="false"
+423-->[com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:20:13-37
+424            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+424-->[com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:21:13-72
+425    </application>
+426
+427</manifest>

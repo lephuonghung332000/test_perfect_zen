@@ -1,0 +1,30 @@
+name: component
+description: A new Flutter package project.
+version: 1.0.0
+publish_to: "none"
+homepage: "https://kodingworks.io"
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  preferences:
+    path: ../preferences
+  dependencies:
+    path: ../dependencies
+  core:
+    path: ../core
+  l10n:
+    path: ../l10n
+  shimmer: 1.1.2
+  flutter_inappwebview: 5.4.4+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:

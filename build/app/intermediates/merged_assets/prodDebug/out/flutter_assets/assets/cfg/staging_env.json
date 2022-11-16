@@ -1,0 +1,10 @@
+{
+    "base_url": "https://example.co.id/v2-staging",
+    "app_name": "App Staging",
+    "encrypt": "AlOp7lBkcFRdJnXFkGcBHwM9I9TJMMas",
+    "version_name": "1",
+    "play_store_app": "https://play.google.com/",
+    "app_store_app": "https://apps.apple.com/",
+    "verify_receipt_url": "https://sandbox.itunes.apple.com/verifyReceipt",
+    "shared_secret": "1a8785d2f4c0494ab9a7801b69d055f1"
+}

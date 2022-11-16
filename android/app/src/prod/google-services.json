@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "837726374909",
+    "project_id": "perfect-zen",
+    "storage_bucket": "perfect-zen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837726374909:android:cd146fdf08a0e9dfb8a794",
+        "android_client_info": {
+          "package_name": "co.novageeks.mediation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837726374909-ka0274v6fira6bpkl14ee54o7704m0e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.novageeks.mediation",
+            "certificate_hash": "0f5600d6f261374173b762bf9f9f9523d3a39440"
+          }
+        },
+        {
+          "client_id": "837726374909-kbn2mqealha2m5s606r1309at2gp8vdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.novageeks.mediation",
+            "certificate_hash": "0ccabf683875aff3a2283ca4ca1556eb5b5f1a1e"
+          }
+        },
+        {
+          "client_id": "837726374909-vj6fsm865r98rul6pm3p4snk6r812gt5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.novageeks.mediation",
+            "certificate_hash": "b4242615279393763923831621b2010475918c5b"
+          }
+        },
+        {
+          "client_id": "837726374909-df2g7u0tj3684pboq3o9dc481cnb0hor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB336Sl7aFeH9SXfW1dDkXZAdJaS0bbj_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837726374909-df2g7u0tj3684pboq3o9dc481cnb0hor.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "837726374909-kn1971sqqf87hhfk54b6jjecbdsmon9g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.novageeks.mediation"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

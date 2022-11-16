@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>234970400945-uhsv70ckrgd0bv9o8lklnhcsoldj0sj5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.234970400945-uhsv70ckrgd0bv9o8lklnhcsoldj0sj5</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>234970400945-o1814baf958i05b4i2djf55kuj7qu845.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAp7ugNaYF0UfUV3hewoImxbWcXKaSkHQ0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>234970400945</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>co.novageeks.mediation.dev</string>
+	<key>PROJECT_ID</key>
+	<string>perfect-zen-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>perfect-zen-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:234970400945:ios:e9aa69d2d602677200fa90</string>
+</dict>
+</plist>

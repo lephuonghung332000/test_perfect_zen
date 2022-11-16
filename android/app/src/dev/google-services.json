@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "234970400945",
+    "project_id": "perfect-zen-dev",
+    "storage_bucket": "perfect-zen-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234970400945:android:40e2259c4501527100fa90",
+        "android_client_info": {
+          "package_name": "co.novageeks.mediation.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234970400945-o1814baf958i05b4i2djf55kuj7qu845.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.novageeks.mediation.dev",
+            "certificate_hash": "0f5600d6f261374173b762bf9f9f9523d3a39440"
+          }
+        },
+        {
+          "client_id": "234970400945-rv3tct4btkut8vclroopsoalrlbimop2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.novageeks.mediation.dev",
+            "certificate_hash": "b4242615279393763923831621b2010475918c5b"
+          }
+        },
+        {
+          "client_id": "234970400945-vttv0n5q7u71015v8h703hrmllv3cpuu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.novageeks.mediation.dev",
+            "certificate_hash": "0ccabf683875aff3a2283ca4ca1556eb5b5f1a1e"
+          }
+        },
+        {
+          "client_id": "234970400945-eq02fg1868kpplo8sp64mffbm5ppuntn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9cve2p7ZzNNiYwN-ZR3SEC4M7YUToW8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234970400945-eq02fg1868kpplo8sp64mffbm5ppuntn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

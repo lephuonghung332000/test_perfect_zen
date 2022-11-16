@@ -1,0 +1,1204 @@
+-- Merging decision tree log ---
+application
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:7:5-86:19
+MERGED from [:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-34:19
+MERGED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-34:19
+MERGED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-46:19
+MERGED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-46:19
+MERGED from [:google_mobile_ads] C:\Users\lephu\Downloads\perfect-zen\build\google_mobile_ads\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-13:19
+MERGED from [:google_mobile_ads] C:\Users\lephu\Downloads\perfect-zen\build\google_mobile_ads\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-13:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\caa6729f7c17a0beb008632f686002ff\jetified-glide-4.13.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\caa6729f7c17a0beb008632f686002ff\jetified-glide-4.13.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6949b9e49440618e5c13613656a0a493\jetified-firebase-analytics-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6949b9e49440618e5c13613656a0a493\jetified-firebase-analytics-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:46:5-65:19
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:46:5-65:19
+MERGED from [com.google.android.gms:play-services-ads-base:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\76636aeb55373f7d5ba6b6ab1646ed70\jetified-play-services-ads-base-21.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\76636aeb55373f7d5ba6b6ab1646ed70\jetified-play-services-ads-base-21.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ae9cb563be1418156313ab1ac6c386a7\jetified-play-services-measurement-sdk-21.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ae9cb563be1418156313ab1ac6c386a7\jetified-play-services-measurement-sdk-21.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0553cb0e9e7f13d4112a3db139cb6d78\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0553cb0e9e7f13d4112a3db139cb6d78\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3019c29dc29966ef8f48db94a2138304\jetified-play-services-appset-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3019c29dc29966ef8f48db94a2138304\jetified-play-services-appset-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f51ed29f87538ba510b2793f496c1562\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f51ed29f87538ba510b2793f496c1562\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\34b3788faffe531b255022d0501e2b10\jetified-play-services-measurement-base-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\34b3788faffe531b255022d0501e2b10\jetified-play-services-measurement-base-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\675c039a182b794e1eccd8fb8a1898eb\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\675c039a182b794e1eccd8fb8a1898eb\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6c54bb1e26c3f2f3ba837122fc2840aa\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6c54bb1e26c3f2f3ba837122fc2840aa\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7f98f737c5fa42f63d71347887a96e04\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7f98f737c5fa42f63d71347887a96e04\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ffc4ffc88b064785efc34b87d9b2d473\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ffc4ffc88b064785efc34b87d9b2d473\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2825a1012f23e3af13567ec227d91cf0\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2825a1012f23e3af13567ec227d91cf0\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e8cabad68f67da04f82683f75c77558a\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e8cabad68f67da04f82683f75c77558a\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0a62a18637b5701c74a34c338e5e299b\jetified-gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0a62a18637b5701c74a34c338e5e299b\jetified-gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:10:3-17:17
+MERGED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:10:3-17:17
+MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:12:5-22:19
+MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:12:5-22:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ffc4ffc88b064785efc34b87d9b2d473\core-1.8.0\AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml
+provider#vn.hunghd.flutterdownloader.DownloadedFileProvider
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:53:8-61:20
+	android:authorities
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:65:9-74:20
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2825a1012f23e3af13567ec227d91cf0\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2825a1012f23e3af13567ec227d91cf0\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	android:authorities
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml
+provider#vn.hunghd.flutterdownloader.FlutterDownloaderInitializer
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:77:9-84:20
+	android:authorities
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:1:1-87:12
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:1:1-87:12
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:1:1-87:12
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:1:1-87:12
+MERGED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:1:1-87:12
+MERGED from [:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\lephu\Downloads\perfect-zen\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:audioplayers_android] C:\Users\lephu\Downloads\perfect-zen\build\audioplayers_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:rate_my_app] C:\Users\lephu\Downloads\perfect-zen\build\rate_my_app\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider_android] C:\Users\lephu\Downloads\perfect-zen\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-36:12
+MERGED from [:assets_audio_player_web] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:wakelock] C:\Users\lephu\Downloads\perfect-zen\build\wakelock\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:webview_flutter_android] C:\Users\lephu\Downloads\perfect-zen\build\webview_flutter_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] C:\Users\lephu\Downloads\perfect-zen\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-48:12
+MERGED from [:in_app_purchase_android] C:\Users\lephu\Downloads\perfect-zen\build\in_app_purchase_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:integration_test] C:\Users\lephu\Downloads\perfect-zen\build\integration_test\intermediates\library_manifest\debug\AndroidManifest.xml:7:1-12:12
+MERGED from [:google_mobile_ads] C:\Users\lephu\Downloads\perfect-zen\build\google_mobile_ads\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:package_info] C:\Users\lephu\Downloads\perfect-zen\build\package_info\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1b89aad8dbcd94a83f192b90fbcefd44\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\caa6729f7c17a0beb008632f686002ff\jetified-glide-4.13.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4711cdbcff0b979b34b2d9269da7e75d\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\dc3e61e0d15a627c118fc885524ac57f\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\407b07a13a75f62892e42c7a4881e145\jetified-play-services-ads-21.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6949b9e49440618e5c13613656a0a493\jetified-firebase-analytics-21.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:17:1-67:12
+MERGED from [com.google.android.gms:play-services-ads-base:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\76636aeb55373f7d5ba6b6ab1646ed70\jetified-play-services-ads-base-21.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.ump:user-messaging-platform:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\eefdd042f30c99bb7734ff982561a351\jetified-user-messaging-platform-2.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ae9cb563be1418156313ab1ac6c386a7\jetified-play-services-measurement-sdk-21.1.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0553cb0e9e7f13d4112a3db139cb6d78\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3019c29dc29966ef8f48db94a2138304\jetified-play-services-appset-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2ef95570cc1b2942bbc39ba71184a97\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f51ed29f87538ba510b2793f496c1562\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f72a223c57282a89656e36ba4da5493c\jetified-play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\34b3788faffe531b255022d0501e2b10\jetified-play-services-measurement-base-21.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\675c039a182b794e1eccd8fb8a1898eb\jetified-play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6c54bb1e26c3f2f3ba837122fc2840aa\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7f98f737c5fa42f63d71347887a96e04\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1b46c770d1951ee8e8399ffcd48237f3\fragment-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\269388301a99c11fb448e59e8cef8871\jetified-activity-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\72aa1f768e7e876a18a60d44445e5ada\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b11a818c9062c4880446c601b8ed328d\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f8f648362fabefe9817cd3c1dffd4704\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a100c5a989767a05f6d1398a3f2670ab\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\23cf3e0b879f9d39f7701dabe7ede0ad\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ec36925b4fbac56fe0791e5ff9fbb960\jetified-exoplayer-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f83000b193fedfb947559e625319d6a5\jetified-exoplayer-hls-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3a6fe77c303e3b1e53d07af3b835e1b2\jetified-exoplayer-dash-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\79ce3a4eaa01e2bbea08949d7e9a1d9d\jetified-exoplayer-smoothstreaming-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\224442e9ce9909efda3c6dfc25b9ce4a\jetified-exoplayer-ui-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.4.3] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1e96ff0a1855dc7fefb010621adb85ff\media-1.4.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\31c1c90ff6a9ca75fa4205848315ead5\webkit-1.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1648db4f77d00f2173765507744f0cab\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ce5bf036af342a350784d8d23a18f28e\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:rules:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2a46a2509e07f65ae5b97a500a0f09a3\rules-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\369e98dd0f96bd84c57b7545db3e0af7\espresso-core-3.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:runner:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\80e0f16a606dc898a4d6d420af3d5303\runner-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0c363cee84437912aee309b75cf4e479\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\fad0b4434714976f9a30118e6005d88e\jetified-exoplayer-rtsp-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\80a13a0b86c0df1fcf0078251d9a4406\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\875e1a2bf1a82a9f35ab14d1c52f6ab7\jetified-core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5bcc41474ef9ddbed35864f0b017ca27\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\be62a0d2ef2112db1c8185036c0433e7\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\757bbe4c30c534bc7fcaf3262ca2bdc9\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\9af9f4628d3af953833d1e2ab40e8bd1\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\372150974e01aaed0b5f2fa366857b2e\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\77723ee6ce606537bba92c783005442d\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ffc4ffc88b064785efc34b87d9b2d473\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\121dcf1541ef37b712af5366a793bf43\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2825a1012f23e3af13567ec227d91cf0\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\cbef2088fcd374ba43b6298f25699dbc\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2e16bbfbe9f6dc551a6877d8b6456de0\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7b5a500751d9c21653d04851caee9ab0\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e8cabad68f67da04f82683f75c77558a\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\73869df4c330a6facde7e5d162b394de\jetified-exoplayer-datasource-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4a376187330292934eef8328e1084f7f\jetified-exoplayer-database-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c07fe57f67e04f636a4d77bf332c3472\jetified-exoplayer-extractor-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ca7970c01566e15d8cb8e5f39163c7c5\jetified-exoplayer-decoder-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0bbddc2ac0351a59c46a1dbe72a0a4fc\jetified-exoplayer-common-2.17.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0a62a18637b5701c74a34c338e5e299b\jetified-gifdecoder-4.13.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d3d81e185ff688e3f94c1c763ca7e42e\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f9668319fac5954b05009eaf1a0e1f00\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\dade7ef7c4db4acae8dfed666794716b\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\dae78c80393d337cebc3b1098fa8a6ba\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\602d234d52e1d25f14cfdf2b75779be1\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test:monitor:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ecf7bb82620ba2ded49a02413fa896ae\monitor-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\13b11ae4511c0a601f4b09a6cfaa9885\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\29187366f2478b7e414115686413d354\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\bffb34f761cd2449279f87084cf82828\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\51b79ffb55fd4288ed57a3e01b2ef05f\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6c152b3d7b896bf7e3aa85d58c9aac1c\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ee3c330c8c98d8a5284672d69946f0e9\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7eeaefb0e2b5d75cfbbefb727a1ee6ef\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\8d48775d0ba73d1876e78ef57844aa77\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c1874ed04ab85dcea642d7217c453f6b\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0b568bffb8b386dc6c0df228c28fbdaa\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\08b7938d7fb49c7080794f92200aad8d\espresso-idling-resource-3.2.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:2:5-45
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:1:1-87:12
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\debug\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:1:1-87:12
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-67
+MERGED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-67
+MERGED from [:google_mobile_ads] C:\Users\lephu\Downloads\perfect-zen\build\google_mobile_ads\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [:google_mobile_ads] C:\Users\lephu\Downloads\perfect-zen\build\google_mobile_ads\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f72a223c57282a89656e36ba4da5493c\jetified-play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f72a223c57282a89656e36ba4da5493c\jetified-play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#com.android.vending.BILLING
+ADDED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:6:5-66
+MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:10:5-67
+MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml:6:22-64
+uses-sdk
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml
+MERGED from [:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\lephu\Downloads\perfect-zen\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\lephu\Downloads\perfect-zen\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audioplayers_android] C:\Users\lephu\Downloads\perfect-zen\build\audioplayers_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-44
+MERGED from [:audioplayers_android] C:\Users\lephu\Downloads\perfect-zen\build\audioplayers_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-44
+MERGED from [:rate_my_app] C:\Users\lephu\Downloads\perfect-zen\build\rate_my_app\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:rate_my_app] C:\Users\lephu\Downloads\perfect-zen\build\rate_my_app\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\lephu\Downloads\perfect-zen\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\lephu\Downloads\perfect-zen\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-43
+MERGED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-43
+MERGED from [:assets_audio_player_web] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:assets_audio_player_web] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] C:\Users\lephu\Downloads\perfect-zen\build\wakelock\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] C:\Users\lephu\Downloads\perfect-zen\build\wakelock\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] C:\Users\lephu\Downloads\perfect-zen\build\webview_flutter_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] C:\Users\lephu\Downloads\perfect-zen\build\webview_flutter_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] C:\Users\lephu\Downloads\perfect-zen\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] C:\Users\lephu\Downloads\perfect-zen\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:in_app_purchase_android] C:\Users\lephu\Downloads\perfect-zen\build\in_app_purchase_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:in_app_purchase_android] C:\Users\lephu\Downloads\perfect-zen\build\in_app_purchase_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:integration_test] C:\Users\lephu\Downloads\perfect-zen\build\integration_test\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-44
+MERGED from [:integration_test] C:\Users\lephu\Downloads\perfect-zen\build\integration_test\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-44
+MERGED from [:google_mobile_ads] C:\Users\lephu\Downloads\perfect-zen\build\google_mobile_ads\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:google_mobile_ads] C:\Users\lephu\Downloads\perfect-zen\build\google_mobile_ads\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:package_info] C:\Users\lephu\Downloads\perfect-zen\build\package_info\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:package_info] C:\Users\lephu\Downloads\perfect-zen\build\package_info\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1b89aad8dbcd94a83f192b90fbcefd44\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1b89aad8dbcd94a83f192b90fbcefd44\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\caa6729f7c17a0beb008632f686002ff\jetified-glide-4.13.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\caa6729f7c17a0beb008632f686002ff\jetified-glide-4.13.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4711cdbcff0b979b34b2d9269da7e75d\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4711cdbcff0b979b34b2d9269da7e75d\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\dc3e61e0d15a627c118fc885524ac57f\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\dc3e61e0d15a627c118fc885524ac57f\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\407b07a13a75f62892e42c7a4881e145\jetified-play-services-ads-21.0.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\407b07a13a75f62892e42c7a4881e145\jetified-play-services-ads-21.0.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6949b9e49440618e5c13613656a0a493\jetified-firebase-analytics-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6949b9e49440618e5c13613656a0a493\jetified-firebase-analytics-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\76636aeb55373f7d5ba6b6ab1646ed70\jetified-play-services-ads-base-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\76636aeb55373f7d5ba6b6ab1646ed70\jetified-play-services-ads-base-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.ump:user-messaging-platform:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\eefdd042f30c99bb7734ff982561a351\jetified-user-messaging-platform-2.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.ump:user-messaging-platform:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\eefdd042f30c99bb7734ff982561a351\jetified-user-messaging-platform-2.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ae9cb563be1418156313ab1ac6c386a7\jetified-play-services-measurement-sdk-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ae9cb563be1418156313ab1ac6c386a7\jetified-play-services-measurement-sdk-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0553cb0e9e7f13d4112a3db139cb6d78\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0553cb0e9e7f13d4112a3db139cb6d78\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3019c29dc29966ef8f48db94a2138304\jetified-play-services-appset-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3019c29dc29966ef8f48db94a2138304\jetified-play-services-appset-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2ef95570cc1b2942bbc39ba71184a97\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2ef95570cc1b2942bbc39ba71184a97\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f51ed29f87538ba510b2793f496c1562\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f51ed29f87538ba510b2793f496c1562\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f72a223c57282a89656e36ba4da5493c\jetified-play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f72a223c57282a89656e36ba4da5493c\jetified-play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\34b3788faffe531b255022d0501e2b10\jetified-play-services-measurement-base-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\34b3788faffe531b255022d0501e2b10\jetified-play-services-measurement-base-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\675c039a182b794e1eccd8fb8a1898eb\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\675c039a182b794e1eccd8fb8a1898eb\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6c54bb1e26c3f2f3ba837122fc2840aa\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6c54bb1e26c3f2f3ba837122fc2840aa\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7f98f737c5fa42f63d71347887a96e04\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7f98f737c5fa42f63d71347887a96e04\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1b46c770d1951ee8e8399ffcd48237f3\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1b46c770d1951ee8e8399ffcd48237f3\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\269388301a99c11fb448e59e8cef8871\jetified-activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\269388301a99c11fb448e59e8cef8871\jetified-activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\72aa1f768e7e876a18a60d44445e5ada\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\72aa1f768e7e876a18a60d44445e5ada\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b11a818c9062c4880446c601b8ed328d\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b11a818c9062c4880446c601b8ed328d\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f8f648362fabefe9817cd3c1dffd4704\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f8f648362fabefe9817cd3c1dffd4704\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a100c5a989767a05f6d1398a3f2670ab\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a100c5a989767a05f6d1398a3f2670ab\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\23cf3e0b879f9d39f7701dabe7ede0ad\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\23cf3e0b879f9d39f7701dabe7ede0ad\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.exoplayer:exoplayer:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ec36925b4fbac56fe0791e5ff9fbb960\jetified-exoplayer-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ec36925b4fbac56fe0791e5ff9fbb960\jetified-exoplayer-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f83000b193fedfb947559e625319d6a5\jetified-exoplayer-hls-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f83000b193fedfb947559e625319d6a5\jetified-exoplayer-hls-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3a6fe77c303e3b1e53d07af3b835e1b2\jetified-exoplayer-dash-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3a6fe77c303e3b1e53d07af3b835e1b2\jetified-exoplayer-dash-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\79ce3a4eaa01e2bbea08949d7e9a1d9d\jetified-exoplayer-smoothstreaming-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\79ce3a4eaa01e2bbea08949d7e9a1d9d\jetified-exoplayer-smoothstreaming-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\224442e9ce9909efda3c6dfc25b9ce4a\jetified-exoplayer-ui-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\224442e9ce9909efda3c6dfc25b9ce4a\jetified-exoplayer-ui-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.3] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1e96ff0a1855dc7fefb010621adb85ff\media-1.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.3] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1e96ff0a1855dc7fefb010621adb85ff\media-1.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\31c1c90ff6a9ca75fa4205848315ead5\webkit-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\31c1c90ff6a9ca75fa4205848315ead5\webkit-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1648db4f77d00f2173765507744f0cab\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1648db4f77d00f2173765507744f0cab\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ce5bf036af342a350784d8d23a18f28e\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ce5bf036af342a350784d8d23a18f28e\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:rules:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2a46a2509e07f65ae5b97a500a0f09a3\rules-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:rules:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2a46a2509e07f65ae5b97a500a0f09a3\rules-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\369e98dd0f96bd84c57b7545db3e0af7\espresso-core-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\369e98dd0f96bd84c57b7545db3e0af7\espresso-core-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\80e0f16a606dc898a4d6d420af3d5303\runner-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\80e0f16a606dc898a4d6d420af3d5303\runner-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0c363cee84437912aee309b75cf4e479\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0c363cee84437912aee309b75cf4e479\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\fad0b4434714976f9a30118e6005d88e\jetified-exoplayer-rtsp-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\fad0b4434714976f9a30118e6005d88e\jetified-exoplayer-rtsp-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\80a13a0b86c0df1fcf0078251d9a4406\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\80a13a0b86c0df1fcf0078251d9a4406\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\875e1a2bf1a82a9f35ab14d1c52f6ab7\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\875e1a2bf1a82a9f35ab14d1c52f6ab7\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5bcc41474ef9ddbed35864f0b017ca27\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5bcc41474ef9ddbed35864f0b017ca27\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\be62a0d2ef2112db1c8185036c0433e7\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\be62a0d2ef2112db1c8185036c0433e7\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\757bbe4c30c534bc7fcaf3262ca2bdc9\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\757bbe4c30c534bc7fcaf3262ca2bdc9\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\9af9f4628d3af953833d1e2ab40e8bd1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\9af9f4628d3af953833d1e2ab40e8bd1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\372150974e01aaed0b5f2fa366857b2e\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\372150974e01aaed0b5f2fa366857b2e\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\77723ee6ce606537bba92c783005442d\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\77723ee6ce606537bba92c783005442d\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ffc4ffc88b064785efc34b87d9b2d473\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ffc4ffc88b064785efc34b87d9b2d473\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\121dcf1541ef37b712af5366a793bf43\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\121dcf1541ef37b712af5366a793bf43\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2825a1012f23e3af13567ec227d91cf0\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2825a1012f23e3af13567ec227d91cf0\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\cbef2088fcd374ba43b6298f25699dbc\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\cbef2088fcd374ba43b6298f25699dbc\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2e16bbfbe9f6dc551a6877d8b6456de0\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\2e16bbfbe9f6dc551a6877d8b6456de0\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7b5a500751d9c21653d04851caee9ab0\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7b5a500751d9c21653d04851caee9ab0\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e8cabad68f67da04f82683f75c77558a\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\e8cabad68f67da04f82683f75c77558a\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\73869df4c330a6facde7e5d162b394de\jetified-exoplayer-datasource-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\73869df4c330a6facde7e5d162b394de\jetified-exoplayer-datasource-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4a376187330292934eef8328e1084f7f\jetified-exoplayer-database-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4a376187330292934eef8328e1084f7f\jetified-exoplayer-database-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c07fe57f67e04f636a4d77bf332c3472\jetified-exoplayer-extractor-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c07fe57f67e04f636a4d77bf332c3472\jetified-exoplayer-extractor-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ca7970c01566e15d8cb8e5f39163c7c5\jetified-exoplayer-decoder-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ca7970c01566e15d8cb8e5f39163c7c5\jetified-exoplayer-decoder-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0bbddc2ac0351a59c46a1dbe72a0a4fc\jetified-exoplayer-common-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0bbddc2ac0351a59c46a1dbe72a0a4fc\jetified-exoplayer-common-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0a62a18637b5701c74a34c338e5e299b\jetified-gifdecoder-4.13.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0a62a18637b5701c74a34c338e5e299b\jetified-gifdecoder-4.13.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d3d81e185ff688e3f94c1c763ca7e42e\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d3d81e185ff688e3f94c1c763ca7e42e\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f9668319fac5954b05009eaf1a0e1f00\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f9668319fac5954b05009eaf1a0e1f00\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\dade7ef7c4db4acae8dfed666794716b\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\dade7ef7c4db4acae8dfed666794716b\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\dae78c80393d337cebc3b1098fa8a6ba\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\dae78c80393d337cebc3b1098fa8a6ba\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\602d234d52e1d25f14cfdf2b75779be1\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\602d234d52e1d25f14cfdf2b75779be1\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:monitor:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ecf7bb82620ba2ded49a02413fa896ae\monitor-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ecf7bb82620ba2ded49a02413fa896ae\monitor-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\13b11ae4511c0a601f4b09a6cfaa9885\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\13b11ae4511c0a601f4b09a6cfaa9885\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\29187366f2478b7e414115686413d354\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\29187366f2478b7e414115686413d354\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\bffb34f761cd2449279f87084cf82828\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\bffb34f761cd2449279f87084cf82828\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\51b79ffb55fd4288ed57a3e01b2ef05f\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\51b79ffb55fd4288ed57a3e01b2ef05f\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6c152b3d7b896bf7e3aa85d58c9aac1c\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6c152b3d7b896bf7e3aa85d58c9aac1c\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ee3c330c8c98d8a5284672d69946f0e9\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ee3c330c8c98d8a5284672d69946f0e9\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7eeaefb0e2b5d75cfbbefb727a1ee6ef\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7eeaefb0e2b5d75cfbbefb727a1ee6ef\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\8d48775d0ba73d1876e78ef57844aa77\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\8d48775d0ba73d1876e78ef57844aa77\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c1874ed04ab85dcea642d7217c453f6b\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\c1874ed04ab85dcea642d7217c453f6b\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:4:3-70
+MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0b568bffb8b386dc6c0df228c28fbdaa\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0b568bffb8b386dc6c0df228c28fbdaa\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\08b7938d7fb49c7080794f92200aad8d\espresso-idling-resource-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\08b7938d7fb49c7080794f92200aad8d\espresso-idling-resource-3.2.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\debug\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\407b07a13a75f62892e42c7a4881e145\jetified-play-services-ads-21.0.0\AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\debug\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:17:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_crashlytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-130
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f72a223c57282a89656e36ba4da5493c\jetified-play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f72a223c57282a89656e36ba4da5493c\jetified-play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\80a13a0b86c0df1fcf0078251d9a4406\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\80a13a0b86c0df1fcf0078251d9a4406\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0bbddc2ac0351a59c46a1dbe72a0a4fc\jetified-exoplayer-common-2.17.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0bbddc2ac0351a59c46a1dbe72a0a4fc\jetified-exoplayer-common-2.17.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+MERGED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+MERGED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f72a223c57282a89656e36ba4da5493c\jetified-play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f72a223c57282a89656e36ba4da5493c\jetified-play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [:firebase_analytics] C:\Users\lephu\Downloads\perfect-zen\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-128
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] C:\Users\lephu\Downloads\perfect-zen\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+queries
+ADDED from [:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-15:15
+MERGED from [:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-12:15
+MERGED from [:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-12:15
+MERGED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-11:15
+MERGED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-11:15
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:28:5-44:15
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:28:5-44:15
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-72
+	android:name
+		ADDED from [:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:21-69
+data
+ADDED from [:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+	android:mimeType
+		ADDED from [:file_picker] C:\Users\lephu\Downloads\perfect-zen\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-41
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker_android] C:\Users\lephu\Downloads\perfect-zen\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] C:\Users\lephu\Downloads\perfect-zen\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+MERGED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:8:3-74
+MERGED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:8:3-74
+	android:name
+		ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-74
+uses-permission#android.permission.VIBRATE
+ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+receiver#com.github.florent37.assets_audio_player.notification.NotificationActionReceiver
+ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:39
+	android:exported
+		ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-108
+receiver#com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver
+ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-21:20
+	android:exported
+		ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-107
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:19:25-74
+service#com.github.florent37.assets_audio_player.notification.NotificationService
+ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-33:19
+	android:enabled
+		ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-35
+	android:exported
+		ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [:assets_audio_player] C:\Users\lephu\Downloads\perfect-zen\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-101
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\debug\AndroidManifest.xml:1:1-7:12 reason: com.github.florent37.assets_audio_player has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\lephu\Downloads\perfect-zen\android\app\src\debug\AndroidManifest.xml:1:1-7:12 reason: com.github.florent37.assets_audio_player has a targetSdkVersion < 4
+intent#action:name:android.intent.action.VIEW
+ADDED from [:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:9:9-11:18
+action#android.intent.action.VIEW
+ADDED from [:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-65
+	android:name
+		ADDED from [:flutter_downloader] C:\Users\lephu\Downloads\perfect-zen\build\flutter_downloader\intermediates\library_manifest\debug\AndroidManifest.xml:10:21-62
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-10:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-90
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:21-87
+activity#com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity
+ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-18:47
+	android:exported
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-36
+	android:configChanges
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-137
+	android:theme
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-44
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-104
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity
+ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-22:55
+	android:exported
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-36
+	android:theme
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-112
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity
+ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-26:55
+	android:exported
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-36
+	android:theme
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-106
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance
+ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-31:55
+	android:launchMode
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-48
+	android:exported
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-36
+	android:theme
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-126
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance
+ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-36:55
+	android:launchMode
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-48
+	android:exported
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-36
+	android:theme
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-120
+receiver#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver
+ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-41:40
+	android:enabled
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-35
+	android:exported
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-111
+meta-data#io.flutter.embedded_views_preview
+ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-45:36
+MERGED from [:google_mobile_ads] C:\Users\lephu\Downloads\perfect-zen\build\google_mobile_ads\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-12:36
+MERGED from [:google_mobile_ads] C:\Users\lephu\Downloads\perfect-zen\build\google_mobile_ads\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-12:36
+	android:value
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-33
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\lephu\Downloads\perfect-zen\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-61
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\ad15d791dfcef086a9184a08a271feac\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\117e3c668c20f8063d8247eb531b5f68\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:19:17-115
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0553cb0e9e7f13d4112a3db139cb6d78\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\0553cb0e9e7f13d4112a3db139cb6d78\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f72a223c57282a89656e36ba4da5493c\jetified-play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\f72a223c57282a89656e36ba4da5493c\jetified-play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\4460f31513bedd636a07a4ea58f71d3c\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3179da07f775606e86dad87c87f496f2\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\6eb145e449a51eb0216f4bdd323dc6fd\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:31:9-37:18
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:34:13-74
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:34:23-71
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:49:9-53:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:52:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:51:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:53:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:50:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:55:9-59:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:57:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:58:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:59:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:56:13-76
+service#com.google.android.gms.ads.AdService
+ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:61:9-64:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:63:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\411e8e45c937ad5b4fc92e6b8727ceda\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:62:13-64
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\3b15b9cd485e882988d94a587fd95f20\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5fb8733bfde5d4df1822b2ee368fdfb8\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5287e719698ce67e168e5719fe1fd09e\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7f98f737c5fa42f63d71347887a96e04\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7f98f737c5fa42f63d71347887a96e04\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7f98f737c5fa42f63d71347887a96e04\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+meta-data#androidx.work.WorkManagerInitializer
+REJECTED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\7d5ac27b52731fca27b774d01fcf3c1d\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\b2faacb2dfc983a8832cf0b799d5aa43\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\1cf59934fca0186d65a3e206c7ac7c49\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\895cda2ba89083ab31a56ed26bff0b7d\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\5d3cf4c42244adac48fc7a6d67db678f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\d10528eec076e3b9dbe1105254470227\jetified-transport-runtime-3.1.5\AndroidManifest.xml:33:13-132
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:5-271
+	android:process
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:152-203
+	android:enabled
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:103-126
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:240-269
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:204-239
+	android:exported
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:127-151
+	android:name
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:12:15-102
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:13:5-226
+	android:enabled
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:13:96-119
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:13:145-174
+	android:exported
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:13:120-144
+	android:theme
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:13:175-224
+	android:name
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:13:15-95
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:16:5-145
+	android:enabled
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:16:96-119
+	android:exported
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:16:120-143
+	android:name
+		ADDED from [com.google.android.play:core:1.8.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\49b9590bdb9a0183c1142140ecc71de2\jetified-core-1.8.0\AndroidManifest.xml:16:14-95
+meta-data#com.google.android.play.billingclient.version
+ADDED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:13:9-15:37
+	android:value
+		ADDED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:15:13-34
+	android:name
+		ADDED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:14:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:17:9-21:75
+	android:exported
+		ADDED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:20:13-37
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:19:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:5.0.0] C:\Users\lephu\.gradle\caches\transforms-2\files-2.1\a2cb9b6c389ef5c63ed9a6b1a0a3ca86\jetified-billing-5.0.0\AndroidManifest.xml:18:13-78

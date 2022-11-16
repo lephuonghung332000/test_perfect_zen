@@ -1,0 +1,68 @@
+name: flutter_modular
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  core:
+    path: shared/core
+  dependencies:
+    path: shared/dependencies
+  preferences:
+    path: shared/preferences
+  component:
+    path: shared/component
+  l10n:
+    path: shared/l10n
+  home:
+    path: features/home
+  guide:
+    path: features/guide
+  meditation_theme:
+    path: features/meditation_theme
+  settings:
+    path: features/settings
+  reports:
+    path: features/reports
+  review_app:
+    path: features/review_app
+  build_runner: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_launcher_icons: 0.10.0
+  flutter_flavorizr: 2.1.4
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: MontserratSemiBold
+      fonts:
+        - asset: assets/fonts/MontserratSemiBold.ttf
+    - family: MontserratRegular
+      fonts:
+        - asset: assets/fonts/MontserratRegular.ttf
+  assets:
+    - assets/cfg/
+    - assets/fonts/
+    - assets/images/
+    - assets/images/bitmap/
+    - assets/images/icons/
+    - assets/images/illustration/
+    - assets/sounds/
+
+dependency_overrides:
+  intl: 0.17.0

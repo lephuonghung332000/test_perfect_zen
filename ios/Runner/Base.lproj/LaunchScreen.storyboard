@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ydg-fD-yQy"/>
+                        <viewControllerLayoutGuide type="bottom" id="xbc-2k-c8Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="background_splash" translatesAutoresizingMaskIntoConstraints="NO" id="tnW-bk-YLC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_screen_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="wKh-81-pNp">
+                                <rect key="frame" x="0.0" y="313" width="375" height="499"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wKh-81-pNp" secondAttribute="height" multiplier="375:499" id="gMR-ts-GR4"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_screen_top" translatesAutoresizingMaskIntoConstraints="NO" id="gtu-ea-6n6">
+                                <rect key="frame" x="0.0" y="80" width="375" height="78"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="wKh-81-pNp" secondAttribute="bottom" id="39C-tL-VtC"/>
+                            <constraint firstItem="gtu-ea-6n6" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="80" id="8tH-JW-BdC"/>
+                            <constraint firstAttribute="trailing" secondItem="wKh-81-pNp" secondAttribute="trailing" id="MPq-P6-EAR"/>
+                            <constraint firstAttribute="trailing" secondItem="tnW-bk-YLC" secondAttribute="trailing" id="Nq0-Ib-JRb"/>
+                            <constraint firstItem="gtu-ea-6n6" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="QrT-nh-mZb"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="tnW-bk-YLC" secondAttribute="bottom" id="UCz-iF-KNt"/>
+                            <constraint firstItem="tnW-bk-YLC" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="Vkk-bZ-1VS"/>
+                            <constraint firstItem="wKh-81-pNp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="VzZ-Me-k6A"/>
+                            <constraint firstAttribute="trailing" secondItem="gtu-ea-6n6" secondAttribute="trailing" id="bhq-3x-RiK"/>
+                            <constraint firstItem="tnW-bk-YLC" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="rlV-nP-3FT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76.811594202898561" y="251.11607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background_splash" width="375" height="812"/>
+        <image name="splash_screen_bottom" width="375" height="499"/>
+        <image name="splash_screen_top" width="274" height="78"/>
+    </resources>
+</document>

@@ -1,0 +1,8 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.release prod.xcconfig"
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main_prod.dart
+
+ASSET_PREFIX=prod
+BUNDLE_NAME=Zenify
+APPLICATION_ADS=ca-app-pub-4897454251853431~7150899082
