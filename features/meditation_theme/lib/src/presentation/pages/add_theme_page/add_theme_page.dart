@@ -119,6 +119,7 @@ class _AddThemePageState extends State<AddThemePage> {
               bottom: 25,
             ),
             child: CustomButton(
+              key: MeditationKey.meditationSaveTimerKey,
               onClick: () {
                 setState(() {
                   clicked = true;

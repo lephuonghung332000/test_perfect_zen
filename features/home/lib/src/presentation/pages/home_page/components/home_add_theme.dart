@@ -14,6 +14,7 @@ class HomeAddTheme extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
+      key: MeditationKey.meditationButtonAddTimerKey,
       onTap: () async {
         GetIt.I<AnalyticsHelper>()
             .logEvent(CommontAnalyticsEvent(EventName.addTheme));

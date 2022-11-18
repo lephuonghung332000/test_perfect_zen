@@ -61,6 +61,7 @@ class _SelectMusicState extends State<SelectMusic> {
           height: 20,
         ),
         DropdownMenu(
+          key: MeditationKey.meditationDropDownTimerKey,
           initialValue: musicDTO?.name,
           allowNull: true,
           errorMessage: S.current.please_select_music,
@@ -154,6 +155,7 @@ class _SelectMusicState extends State<SelectMusic> {
                           borderRadius: BorderRadius.circular(16),
                         ),
                         child: TextButton(
+                          key: MeditationKey.meditationSaveMusicTimerKey,
                           onPressed: () {
                             Navigator.pop(context);
                           },

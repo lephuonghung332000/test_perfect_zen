@@ -6,7 +6,6 @@ import 'package:preferences/preferences.dart';
 import 'flavors.dart';
 import 'module.dart';
 
-bool isInitDownloaded = false;
 
 Future<void> setup() async {
   await _injectConfig();
@@ -24,15 +23,12 @@ Future<void> _injectConfig() async {
   globalConfig = await GlobalConfiguration.setup(_configPath);
 
   GetIt.I.registerLazySingleton<GlobalConfiguration>(() => globalConfig);
-  if (!isInitDownloaded) {
-    isInitDownloaded = true;
-    await FlutterDownloader.initialize(
-        debug:
-            true, // optional: set to false to disable printing logs to console (default: true)
-        ignoreSsl:
-            true // option: set to false to disable working with http links (default: false)
-        );
-  }
+  await FlutterDownloader.initialize(
+      debug:
+          true, // optional: set to false to disable printing logs to console (default: true)
+      ignoreSsl:
+          true // option: set to false to disable working with http links (default: false)
+      );
 }
 
 Future<void> _injectCore() async {

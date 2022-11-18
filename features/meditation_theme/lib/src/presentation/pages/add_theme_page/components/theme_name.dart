@@ -2,6 +2,7 @@ import 'package:component/atom/custom_text_field.dart';
 import 'package:core/core.dart';
 import 'package:flutter/material.dart';
 import 'package:l10n/generated/l10n.dart';
+import 'package:meditation_theme/meditation_theme.dart';
 import 'package:preferences/preferences.dart';
 
 class ThemeName extends StatefulWidget {
@@ -33,6 +34,7 @@ class _ThemeNameState extends State<ThemeName> {
           height: 10,
         ),
         CustomTextField(
+          key: MeditationKey.meditationTitleTimerKey,
           initialValue: widget.initialValue,
           hint: S.current.enter_name,
           type: TextInputType.name,
